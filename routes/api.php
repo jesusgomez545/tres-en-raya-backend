@@ -16,5 +16,5 @@ use App\Movement;
 |
 */
 
-Route::post('rounds', 'RoundController@store')->middleware('cors');
-Route::post('movements', 'MovementController@store')->middleware('cors');
+Route::post('rounds', 'RoundController@store');
+Route::post('movements', 'MovementController@store');
